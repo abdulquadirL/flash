@@ -18,7 +18,7 @@ const AuthForm = () => {
                     fontSize={14}
                     type='password'
                 />
-                {!isLogin ? <Input placeholder='Confirm Password' fontSize={14} type='passwod' /> : null}
+                {!isLogin ? <Input placeholder='Confirm Password' fontSize={14} type='password' /> : null}
                 <Button w={"full"} colorScheme='blue' size={"sm"} fontSize={14}>
                     {isLogin ? "Log in" : "Sign Up" }
                 </Button>

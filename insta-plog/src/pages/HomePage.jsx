@@ -1,7 +1,10 @@
+import { Box, Text } from '@chakra-ui/react';
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <Box>
+     <Text>Hello Home</Text>
+    </Box>
   )
 }
 
