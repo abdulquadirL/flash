@@ -24,7 +24,7 @@ const AuthForm = () => {
                 </Button>
                 <Flex alignItems={"center"} justifyContent={"center"} my={4} gap={1} w={"full"}>
                     <Box flex={2} h={"1px"} color={'gray.400'}></Box>
-                    <Text mx={1} color={"white"}>
+                    <Text mx={1} color={"gray"}>
                         OR
                     </Text>
                     <Box flex={2} h={"1px"} color={'gray.400'}></Box>
