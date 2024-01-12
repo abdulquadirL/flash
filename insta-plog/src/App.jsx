@@ -4,16 +4,17 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AuthPage from './pages/AuthPage';
+import PageLayout from './Layouts/PageLayouts/PageLayout';
 
 function App() {
 
   return (
-    <>
+    <PageLayout>
     <Routes>
       <Route path='/' element={<HomePage/>}></Route>
       <Route path='/authPage' element={<AuthPage/>}></Route>
     </Routes>
-    </>
+    </PageLayout>
   )
 }
 
